@@ -43,9 +43,9 @@ DEFAULT: 1
     box-sizing: border-box;
 }
 
-/* html {
+html {
     font-size: 62.5%;
-} */
+}
 
 body {
     font-family: 'Inter', sans-serif;
@@ -54,16 +54,16 @@ body {
 }
 
 .accordion {
-    width: 700px;
-    margin: 100px auto;
+    width: 70rem;
+    margin: 10rem auto;
 
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 2.4rem;
 }
 .item {
-    box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
-    padding: 24px;
+    box-shadow: 0 0 3.2rem rgba(0, 0, 0, 0.1);
+    padding: 2.4rem;
     display: grid;
     grid-template-columns: auto 1fr auto;
     column-gap: 24px;
@@ -72,7 +72,7 @@ body {
 
 .number,
 .text {
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 500;
     /* color: #087f5b; */
 }
@@ -82,8 +82,8 @@ body {
 }
 
 .icon {
-    width: 24px;
-    height: 24px;
+    width: 2.4rem;
+    height: 2.4rem;
     stroke: #087f5b;
 }
 
@@ -94,16 +94,16 @@ body {
 
 .hidden-box p {
     line-height: 1.6;
-    margin-bottom: 24px;
+    margin-bottom: 2.4rem;
 }
 
 .hidden-box ul {
     color: #868e96;
-    margin-left: 16px;
+    margin-left: 1.6rem;
 
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 1.2rem;
 }
 
 .open {
